@@ -1,1 +1,0 @@
-# Cheese-strat.github.io
