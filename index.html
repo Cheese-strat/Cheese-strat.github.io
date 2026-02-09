@@ -7,6 +7,36 @@
 <Div name="text" style="width: 100% 10%;">
     <textarea name="location" id="locationtext"></textarea>
 </Div>
-<div name="FloorImage"><img id="floorplanimg" style="width: max-content;" src="" alt=""></div>
+
+<div class="image-container">
+    <img src="./NORTHAM_WA_2025-C03 CATERGORY MERCH PLAN_page-0001.jpg" alt="Sample PNG" class="base-image">
+    <span class="dot" style="top: 20px; left: 30px;">&#8226;</span>
+    <span class="dot" style="top: 50px; left: 80px;">&#8226;</span>
+</div>
+
+<style>
+    .image-container {
+        position: relative;
+        display: inline-block;
+        /* Container fits image size */
+    }
+
+    .base-image {
+        display: block;
+        width: 100%;
+        /* Responsive */
+        height: auto;
+    }
+
+    .dot {
+        position: absolute;
+        color: red;
+        /* Color of the dot */
+        font-size: 24px;
+        /* Size of the dot */
+        cursor: pointer;
+        /* Adjust top/left inline or here */
+    }
+</style>
 
 </html>
