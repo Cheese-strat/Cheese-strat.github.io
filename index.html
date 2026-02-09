@@ -1,8 +1,8 @@
 <html>
-<Div name="Header" style="width: 100% 10%;background-color: cornflowerblue;">
-    <Div name="code"></Div>
-    <Div name="button"></Div>
-    <Div name="housenum"></Div>
+<Div class="Header">
+    <Div class="code"><input>1738</input></Div>
+    <Div class="button"><input></input></Div>
+    <Div class="housenum"><input>6649</input></Div>
 </Div>
 <Div name="text" style="width: 100% 10%;">
     <textarea name="location" id="locationtext"></textarea>
@@ -15,6 +15,11 @@
 </div>
 
 <style>
+    .Header {
+        top:auto;
+        width: 100%;
+        background-color: darkviolet;
+    }
     .image-container {
         position: relative;
         display: inline-block;
@@ -30,7 +35,7 @@
 
     .dot {
         position: absolute;
-        color: red;
+        color: rgb(0, 255, 0);
         /* Color of the dot */
         font-size: 24px;
         /* Size of the dot */
