@@ -1,16 +1,17 @@
 <html>
 <Div class="Header">
-    <Div class="code"><input>1738</input></Div>
-    <Div class="button"><input></input></Div>
-    <Div class="housenum"><input>6649</input></Div>
+    <span class="code"><input>1738</input></span>
+    <span class="button"><input></input></span>
+    <span class="housenum"><input>6649</input></span>
 </Div>
 <Div name="text" style="width: 100% 10%;">
     <textarea name="location" id="locationtext"></textarea>
 </Div>
 
 <div class="image-container">
+    <script src="index.js"></script>
     <img src="./NORTHAM_WA_2025-C03 CATERGORY MERCH PLAN_page-0001.jpg" alt="Sample PNG" class="base-image">
-    <span class="dot" style="top: 20px; left: 30px;">&#8226;</span>
+    <span id="1" class="dot" style="top: 20px; left: 30px;">&#8226;</span>
     <span class="dot" style="top: 50px; left: 80px;">&#8226;</span>
 </div>
 
@@ -19,7 +20,6 @@
         top:auto;
         width: 100%;
         background-color: darkviolet;
-        align-items: stretch;
     }
     .code .button .housenum {
         border-color: aqua;
@@ -41,7 +41,7 @@
         position: absolute;
         color: rgb(0, 255, 0);
         /* Color of the dot */
-        font-size: 24px;
+        font-size: 50px;
         /* Size of the dot */
         cursor: pointer;
         /* Adjust top/left inline or here */
