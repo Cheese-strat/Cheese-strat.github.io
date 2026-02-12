@@ -9,120 +9,116 @@ var textbox = document.getElementById("locationtext")
         image.style.visibility = "visible"
     }
 })*/
-binbox.addEventListener('input', function (e) {
-    var num = Number(e.textContent)
-    textbox.textContent = obj[num-1].description
-    /*obj[num-1].link.style.color= rgb(0, 255, 0);*/
-})
+
 
 var obj = [
     {
         binnum: 1,
         top: 15,
         left: 20,
-        description: "",
+        description: "Garden Event, Outer Shelf Bay",
         link: undefined
     },
     {
         binnum: 2,
         top: 80,
         left: 10,
-        description: "",
+        description: "Garden Event, Shelf Bay",
         link: undefined
     },
     {
         binnum: 3,
         top: 38,
         left: 48,
-        description: "",
+        description: "Garden Event, Shelf Bay",
         link: undefined
     },
     {
         binnum: 4,
         top: 56,
         left: 56,
-        description: "",
+        description: "Garden Event, Shelf Bay",
         link: undefined
     }, {
         binnum: 5,
         top: 60,
         left: 25,
-        description: "",
+        description: "Garden Event, Shelf Bay",
         link: undefined
     },
     {
         binnum: 6,
         top: 29,
         left: 84,
-        description: "",
+        description: "Garden Event, Shelf Bay",
         link: undefined
     },
     {
         binnum: 7,
         top: 28,
         left: 29,
-        description: "",
+        description: "Stationary Writing, Shelf Bay",
         link: undefined
     },
     {
         binnum: 8,
         top: 56,
         left: 56,
-        description: "",
+        description: "  , Shelf Bay",
         link: undefined
     }, {
         binnum: 9,
         top: 15,
         left: 20,
-        description: "",
+        description: "  , Shelf Bay",
         link: undefined
     },
     {
         binnum: 10,
         top: 80,
         left: 10,
-        description: "",
+        description: "  , Shelf Bay",
         link: undefined
     },
     {
         binnum: 11,
         top: 38,
         left: 48,
-        description: "",
+        description: ", Shelf Bay",
         link: undefined
     },
     {
         binnum: 12,
         top: 56,
         left: 56,
-        description: "",
+        description: ", Shelf Bay",
         link: undefined
     }, {
         binnum: 12,
         top: 15,
         left: 20,
-        description: "",
+        description: ", Shelf Bay",
         link: undefined
     },
     {
         binnum: 13,
         top: 80,
         left: 10,
-        description: "",
+        description: ", Shelf Bay",
         link: undefined
     },
     {
         binnum: 14,
         top: 38,
         left: 48,
-        description: "",
+        description: ", Shelf Bay",
         link: undefined
     },
     {
         binnum: 15,
         top: 56,
         left: 56,
-        description: "",
+        description: ", Shelf Bay",
         link: undefined
     }, {
         binnum: 16,
@@ -188,6 +184,12 @@ var obj = [
     }
 
 ];
+binbox.addEventListener('input', function (e) {
+    var num = Number(e.textContent)
+    console.log(num)
+    textbox.textContent = obj.find(function (test){test.binnum== num}).description
+    /*obj[num-1].link.style.color= rgb(0, 255, 0);*/
+})
 /*
 obj.forEach(function (item, index) {
     var span = document.createElement("span")
