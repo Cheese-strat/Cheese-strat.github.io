@@ -1,12 +1,12 @@
+var securitycode = document.getElementsByClassName("code")[0]
+var image = document.getElementsByClassName("base-image")[0]
+console.log(code.textContent)
+if (code.textContent="1013"){
+    console.log("security authorized")
+    image.style.visibility = "visible"
+}
 
-obj.forEach(function (item, index){
-    var span = document.createElement("span")
-    span.className = "dot";
-    span.style = "top: "+item.top.toString()+"%; left: "+ item.left.toString()+"%;";
-    span.textContent = "•";
-    obj[index].link = span
-document.getElementsByClassName("image-container")[0].appendChild(span)
-})
+
 var obj = [
     {
         binnum: 1,
@@ -45,3 +45,11 @@ var obj = [
     }
 
 ];
+obj.forEach(function (item, index){
+    var span = document.createElement("span")
+    span.className = "dot";
+    span.style = "top: "+item.top.toString()+"%; left: "+ item.left.toString()+"%;";
+    span.textContent = "•";
+    obj[index].link = span
+document.getElementsByClassName("image-container")[0].appendChild(span)
+})
