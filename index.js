@@ -1,6 +1,6 @@
 /*var securitycode = document.getElementsByClassName("code")[0]
 var image = document.getElementsByClassName("base-image")[0]*/
-var binbox = document.getElementsById("binbox");
+var binbox = document.getElementById("binbox");
 var textbox = document.getElementById("locationtext")
 /*securitycode.addEventListener('input', function (e) {
     console.log(securitycode.textContent)
@@ -185,9 +185,9 @@ var obj = [
 
 ];
 binbox.addEventListener('input', function (e) {
-    var num = Number(binbox.TEXT_NODE)
-    console.log(binbox.TEXT_NODE)
-    textbox.textContent = obj.find(function (test){test.binnum== num}).description
+    var num = Number(binbox.value)
+    console.log(binbox.value)
+    textbox.textContent = obj[num-1].description
     /*obj[num-1].link.style.color= rgb(0, 255, 0);*/
 })
 /*
