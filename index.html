@@ -1,10 +1,9 @@
-<html>
 <Div class="Header">
-    <span class="code"><input>1738</input></span>
-    <span class="button"><input></input></span>
-    <span class="housenum"><input>6649</input></span>
+    <span class="code"><input placeholder="security code"></input></span>
+    <span class="button"><input placeholder="bin"></input></span>
+    <span class="housenum"><input maxlength="4" value="6633"></input></span>
 </Div>
-<Div name="text" style="width: 100% 10%;">
+<Div name="text" style="width: 100% 10%;display: flex;justify-content: space-between;">
     <textarea name="location" id="locationtext"></textarea>
 </Div>
 
@@ -19,7 +18,9 @@
     .Header {
         top:auto;
         width: 100%;
-        background-color: darkviolet;
+        background-color: rgb(46, 153, 196);
+        display: flex;
+        justify-content: space-between;
     }
     .code .button .housenum {
         border-color: aqua;
@@ -47,5 +48,3 @@
         /* Adjust top/left inline or here */
     }
 </style>
-
-</html>
