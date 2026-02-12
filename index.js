@@ -1,12 +1,16 @@
 var securitycode = document.getElementsByClassName("code")[0]
 var image = document.getElementsByClassName("base-image")[0]
-
+var binbox = document.getElementsByClassName("button")[0]
 securitycode.addEventListener('input', function (e) {
     console.log(securitycode.textContent)
     if (securitycode.textContent = "1013") {
         console.log("security authorized")
         image.style.visibility = "visible"
     }
+})
+binbox.addEventListener('input', function (e) {
+    var num = Number(e.textContent)
+    obj[num-1].link.style.color= rgb(0, 255, 0);
 })
 
 var obj = [
