@@ -1,16 +1,18 @@
-var securitycode = document.getElementsByClassName("code")[0]
-var image = document.getElementsByClassName("base-image")[0]
-var binbox = document.getElementsByClassName("button")[0]
-securitycode.addEventListener('input', function (e) {
+/*var securitycode = document.getElementsByClassName("code")[0]
+var image = document.getElementsByClassName("base-image")[0]*/
+var binbox = document.getElementsByClassName("button")[0];
+var textbox = document.getElementById("locationtext")
+/*securitycode.addEventListener('input', function (e) {
     console.log(securitycode.textContent)
     if (securitycode.textContent = "1013") {
         console.log("security authorized")
         image.style.visibility = "visible"
     }
-})
+})*/
 binbox.addEventListener('input', function (e) {
     var num = Number(e.textContent)
-    obj[num-1].link.style.color= rgb(0, 255, 0);
+    textbox.textContent = obj[num-1].description
+    /*obj[num-1].link.style.color= rgb(0, 255, 0);*/
 })
 
 var obj = [
@@ -186,6 +188,7 @@ var obj = [
     }
 
 ];
+/*
 obj.forEach(function (item, index) {
     var span = document.createElement("span")
     span.className = "dot";
@@ -193,4 +196,4 @@ obj.forEach(function (item, index) {
     span.textContent = item.binnum;
     obj[index].link = span
     document.getElementsByClassName("image-container")[0].appendChild(span)
-})
+})*/
