@@ -23,7 +23,7 @@ var obj = [
         binnum: 2,
         top: 80,
         left: 10,
-        description: "Garden Event, Shelf Bay",
+        description: "Garden Event, Outer Shelf Bay",
         link: undefined
     },
     {
@@ -118,35 +118,35 @@ var obj = [
         binnum: 16,
         top: 56,
         left: 56,
-        description: ", Shelf Bay",
+        description: "Adult Craft, Outer Shelf Bay",
         link: undefined
     }, {
         binnum: 17,
         top: 15,
         left: 20,
-        description: "",
+        description: "Diamond art, Outer Shelf Bay",
         link: undefined
     },{
         binnum: 18,
         top: 15,
         left: 20,
-        description: "",
+        description: "Educational and money tins, Outer Shelf Bay",
         link: undefined
     },
 /* Perimeter 18–73 */
-{ binnum: 18, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 19, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 20, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 21, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 22, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 23, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 24, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 25, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 26, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 27, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 28, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 29, top: 0, left: 0, description: "Perimeter", link: undefined },
-{ binnum: 30, top: 0, left: 0, description: "Perimeter", link: undefined },
+
+{ binnum: 19, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 20, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 21, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 22, top: 0, left: 0, description: "Dog Toys, Outer shelf bay", link: undefined },
+{ binnum: 23, top: 0, left: 0, description: "Shmackos, Outer shelf bay", link: undefined },
+{ binnum: 24, top: 0, left: 0, description: "Dog Treats, Outer shelf bay", link: undefined },
+{ binnum: 25, top: 0, left: 0, description: "Dog Treats, Outer Shelf Bay", link: undefined },
+{ binnum: 26, top: 0, left: 0, description: "Dog Treats, Outer Shelf Bay", link: undefined },
+{ binnum: 27, top: 0, left: 0, description: "Dog Food, Outer Shelf Bay", link: undefined },
+{ binnum: 28, top: 0, left: 0, description: "Dog bowls, Outer Shelf Bay", link: undefined },
+{ binnum: 29, top: 0, left: 0, description: "Puppy pads, Outer Shelf Bay", link: undefined },
+{ binnum: 30, top: 0, left: 0, description: "Cat toys, Outer Shelf Bay", link: undefined },
 { binnum: 31, top: 0, left: 0, description: "Perimeter", link: undefined },
 { binnum: 32, top: 0, left: 0, description: "Perimeter", link: undefined },
 { binnum: 33, top: 0, left: 0, description: "Perimeter", link: undefined },
@@ -192,7 +192,7 @@ var obj = [
 { binnum: 73, top: 0, left: 0, description: "Perimeter", link: undefined },
 
 /* Registers 74–93 */
-{ binnum: 74, top: 0, left: 0, description: "Registers", link: undefined },
+{ binnum: 74, top: 0, left: 0, description: "Register", link: undefined },
 { binnum: 75, top: 0, left: 0, description: "Registers", link: undefined },
 { binnum: 76, top: 0, left: 0, description: "Registers", link: undefined },
 { binnum: 77, top: 0, left: 0, description: "Registers", link: undefined },
@@ -373,8 +373,8 @@ var obj = [
 // ...
 { binnum: 443, top: 0, left: 0, description: "Cage", link: undefined },
 
-{ binnum: 444, top: 0, left: 0, description: "Pallet", link: undefined },
-{ binnum: 445, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 444, top: 0, left: 0, description: "Cards and party, Side Stack", link: undefined },
+{ binnum: 445, top: 0, left: 0, description: "Registers, Side Stack", link: undefined },
 { binnum: 446, top: 0, left: 0, description: "Pallet", link: undefined },
 { binnum: 447, top: 0, left: 0, description: "Pallet", link: undefined }
 
