@@ -366,17 +366,39 @@ var obj = [
 
 { binnum: 418, top: 0, left: 0, description: "Clip Strip", link: undefined },
 { binnum: 419, top: 0, left: 0, description: "Misc", link: undefined },
-{ binnum: 420, top: 0, left: 0, description: "Directs / Markdown", link: undefined },
-{ binnum: 421, top: 0, left: 0, description: "Directs / Markdown", link: undefined },
+{ binnum: 420, top: 0, left: 0, description: "Back of House / Markdown", link: undefined },
+{ binnum: 421, top: 0, left: 0, description: "Back of House / Markdown", link: undefined },
 
 { binnum: 422, top: 0, left: 0, description: "Cage", link: undefined },
-// ...
+{ binnum: 423, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 424, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 425, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 426, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 427, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 428, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 429, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 430, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 431, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 432, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 433, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 434, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 435, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 436, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 437, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 438, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 439, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 440, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 441, top: 0, left: 0, description: "Cage", link: undefined },
+{ binnum: 442, top: 0, left: 0, description: "Cage", link: undefined },
 { binnum: 443, top: 0, left: 0, description: "Cage", link: undefined },
 
 { binnum: 444, top: 0, left: 0, description: "Cards and party, Side Stack", link: undefined },
 { binnum: 445, top: 0, left: 0, description: "Registers, Side Stack", link: undefined },
 { binnum: 446, top: 0, left: 0, description: "Pallet", link: undefined },
-{ binnum: 447, top: 0, left: 0, description: "Pallet", link: undefined }
+{ binnum: 447, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 448, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 449, top: 0, left: 0, description: "Pallet", link: undefined },
+
 
 ];
 binbox.addEventListener('input', function (e) {
