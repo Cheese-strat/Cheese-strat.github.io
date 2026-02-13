@@ -483,7 +483,7 @@ var obj = [
 // ...
 
 { binnum: 354, top: 0, left: 0, description: "Card Stand", link: undefined },
-{binnum:0,top:0,left:0,description:"Sorry, ran out of time"}
+{binnum:0,top:0,left:0,description:"Sorry, ran out of time"},
 { binnum: 380, top: 0, left: 0, description: "Card Stand", link: undefined },
 
 { binnum: 381, top: 0, left: 0, description: "Card Drawers", link: undefined },
@@ -550,7 +550,7 @@ var obj = [
 binbox.addEventListener('input', function (e) {
     var num = Number(binbox.value)
     console.log(binbox.value)
-    textbox.textContent = obj.find(function (x){return x.binnum ==num}.description
+    textbox.textContent = obj.find(function (x){return x.binnum ==num}).description
     /*obj[num-1].link.style.color= rgb(0, 255, 0);*/
 })
 /*
