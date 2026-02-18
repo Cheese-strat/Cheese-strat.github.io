@@ -1,10 +1,10 @@
-var securitycode = document.getElementsByClassName("code")[0]
+var housecode = document.getElementsByClassName("housenum")[0]
 var image = document.getElementsByClassName("base-image")[0]
 var binbox = document.getElementById("binbox");
 var textbox = document.getElementById("locationtext")
-securitycode.addEventListener('input', function (e) {
-    console.log(securitycode.textContent)
-    if (securitycode.textContent = "1013") {
+housecode.addEventListener('input', function (e) {
+    console.log(housecode.textContent)
+    if (housecode.textContent = "1013") {
         console.log("security authorized")
         image.style.visibility = "visible"
     }
