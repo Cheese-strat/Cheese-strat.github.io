@@ -1,140 +1,36 @@
-/*var securitycode = document.getElementsByClassName("code")[0]
-var image = document.getElementsByClassName("base-image")[0]*/
+var securitycode = document.getElementsByClassName("code")[0]
+var image = document.getElementsByClassName("base-image")[0]
 var binbox = document.getElementById("binbox");
 var textbox = document.getElementById("locationtext")
-/*securitycode.addEventListener('input', function (e) {
+securitycode.addEventListener('input', function (e) {
     console.log(securitycode.textContent)
     if (securitycode.textContent = "1013") {
         console.log("security authorized")
         image.style.visibility = "visible"
     }
-})*/
+})
 
 
-var obj = [
-    {
-        binnum: 1,
-        top: 15,
-        left: 20,
-        description: "Garden Event, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 2,
-        top: 80,
-        left: 10,
-        description: "Garden Event, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 3,
-        top: 38,
-        left: 48,
-        description: "Garden Event, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 4,
-        top: 56,
-        left: 56,
-        description: "Garden Event, Outer Shelf Bay",
-        link: undefined
-    }, {
-        binnum: 5,
-        top: 60,
-        left: 25,
-        description: "Garden Event, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 6,
-        top: 29,
-        left: 84,
-        description: "Garden Event, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 7,
-        top: 28,
-        left: 29,
-        description: "Stationary Writing, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 8,
-        top: 56,
-        left: 56,
-        description: "Stationairy, Outer Shelf Bay",
-        link: undefined
-    }, {
-        binnum: 9,
-        top: 15,
-        left: 20,
-        description: "Stationairy, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 10,
-        top: 80,
-        left: 10,
-        description: "Note Books, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 11,
-        top: 38,
-        left: 48,
-        description: "Stationairy boards, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 12,
-        top: 56,
-        left: 56,
-        description: "Pack and Post, Outer Shelf Bay",
-        link: undefined
-    }, {
-        binnum: 13,
-        top: 15,
-        left: 20,
-        description: "Diaries, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 14,
-        top: 80,
-        left: 10,
-        description: "Adult Craft, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 15,
-        top: 38,
-        left: 48,
-        description: "Adult Craft, Outer Shelf Bay",
-        link: undefined
-    },
-    {
-        binnum: 16,
-        top: 56,
-        left: 56,
-        description: "Adult Craft, Outer Shelf Bay",
-        link: undefined
-    }, {
-        binnum: 17,
-        top: 15,
-        left: 20,
-        description: "Diamond art, Outer Shelf Bay",
-        link: undefined
-    },{
-        binnum: 18,
-        top: 15,
-        left: 20,
-        description: "Educational and money tins, Outer Shelf Bay",
-        link: undefined
-    },
-/* Perimeter 18–73 */
-
+var obj = [ 
+{ binnum: 0, top: 0, left: 0, description: "Sorry, ran out of time", link: undefined },
+{ binnum: 1, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 2, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 3, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 4, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 5, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 6, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 7, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 8, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 9, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 10, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 11, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 12, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 13, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 14, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 15, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 16, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 17, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
+{ binnum: 18, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
 { binnum: 19, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
 { binnum: 20, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
 { binnum: 21, top: 0, left: 0, description: "Dog Toys, Outer Shelf Bay", link: undefined },
@@ -190,8 +86,6 @@ var obj = [
 { binnum: 71, top: 0, left: 0, description: "Perimeter", link: undefined },
 { binnum: 72, top: 0, left: 0, description: "Perimeter", link: undefined },
 { binnum: 73, top: 0, left: 0, description: "Perimeter", link: undefined },
-
-/* Registers 74–93 */
 { binnum: 74, top: 0, left: 0, description: "Behind the Registers", link: undefined },
 { binnum: 75, top: 0, left: 0, description: "Registers", link: undefined },
 { binnum: 76, top: 0, left: 0, description: "Registers", link: undefined },
@@ -212,8 +106,6 @@ var obj = [
 { binnum: 91, top: 0, left: 0, description: "Valentine shelf, Registers", link: undefined },
 { binnum: 92, top: 0, left: 0, description: "Batteries", link: undefined },
 { binnum: 93, top: 0, left: 0, description: "Batteries", link: undefined },
-
-/* Two Tiers 94–101 */
 { binnum: 94, top: 0, left: 0, description: "Two Tiers", link: undefined },
 { binnum: 95, top: 0, left: 0, description: "Two Tiers", link: undefined },
 { binnum: 96, top: 0, left: 0, description: "Two Tiers", link: undefined },
@@ -222,22 +114,17 @@ var obj = [
 { binnum: 99, top: 0, left: 0, description: "Two Tiers", link: undefined },
 { binnum: 100, top: 0, left: 0, description: "Two Tiers", link: undefined },
 { binnum: 101, top: 0, left: 0, description: "Two Tiers", link: undefined },
-
 { binnum: 102, top: 0, left: 0, description: "Umbrella Stand, FOH", link: undefined },
 { binnum: 103, top: 0, left: 0, description: "Sunglasses Stand, FOH", link: undefined },
 { binnum: 104, top: 0, left: 0, description: "Valentines Stand, FOH", link: undefined },
 { binnum: 105, top: 0, left: 0, description: "Batteries Stand, FOH", link: undefined },
 { binnum: 106, top: 0, left: 0, description: "Valentines Cards Stand, FOH", link: undefined },
-
-/* Dump Bins 107–112 */
 { binnum: 107, top: 0, left: 0, description: "Dump Bin", link: undefined },
 { binnum: 108, top: 0, left: 0, description: "Dump Bin", link: undefined },
 { binnum: 109, top: 0, left: 0, description: "Dump Bin", link: undefined },
 { binnum: 110, top: 0, left: 0, description: "Dump Bin", link: undefined },
 { binnum: 111, top: 0, left: 0, description: "Dump Bin", link: undefined },
 { binnum: 112, top: 0, left: 0, description: "Dump Bin", link: undefined },
-
-/* Six Ways 114–135 */
 { binnum: 114, top: 0, left: 0, description: "Six Way", link: undefined },
 { binnum: 115, top: 0, left: 0, description: "Six Way", link: undefined },
 { binnum: 116, top: 0, left: 0, description: "Six Way", link: undefined },
@@ -265,8 +152,6 @@ var obj = [
 { binnum: 138, top: 0, left: 0, description: "Six Way", link: undefined },
 { binnum: 139, top: 0, left: 0, description: "Dog Pads, Floor Pallet", link: undefined },
 { binnum: 140, top: 0, left: 0, description: "Cat Litter, Floor Pallet", link: undefined },
-
-/* Aisles 141–226 */
 { binnum: 141, top: 0, left: 0, description: "Aisle", link: undefined },
 { binnum: 142, top: 0, left: 0, description: "Aisle", link: undefined },
 { binnum: 143, top: 0, left: 0, description: "Aisle", link: undefined },
@@ -353,7 +238,6 @@ var obj = [
 { binnum: 224, top: 0, left: 0, description: "Garden Aisle", link: undefined },
 { binnum: 225, top: 0, left: 0, description: "Garden Aisle", link: undefined },
 { binnum: 226, top: 0, left: 0, description: "Garden Aisle", link: undefined },
-
 { binnum: 227, top: 0, left: 0, description: "Seeds", link: undefined },
 { binnum: 228, top: 0, left: 0, description: "Pots", link: undefined },
 { binnum: 229, top: 0, left: 0, description: "Pots (Officed)", link: undefined },
@@ -480,20 +364,30 @@ var obj = [
 { binnum: 351, top: 0, left: 0, description: "Footwear, Health and Beauty Aisle", link: undefined },
 { binnum: 352, top: 0, left: 0, description: "Footwear, Health and Beauty Aisle", link: undefined },
 { binnum: 353, top: 0, left: 0, description: "Australia Day, Health and Beauty End", link: undefined },
-// ...
-
 { binnum: 354, top: 0, left: 0, description: "Card Stand", link: undefined },
-{binnum:0,top:0,left:0,description:"Sorry, ran out of time"},
 { binnum: 380, top: 0, left: 0, description: "Card Stand", link: undefined },
-
 { binnum: 381, top: 0, left: 0, description: "Card Drawers", link: undefined },
-// ...
+{ binnum: 382, top: 0, left: 0, description: "Card Drawers", link: undefined },
+{ binnum: 383, top: 0, left: 0, description: "Card Drawers", link: undefined },
+{ binnum: 384, top: 0, left: 0, description: "Card Drawers", link: undefined },
+{ binnum: 385, top: 0, left: 0, description: "Card Drawers", link: undefined },
+{ binnum: 386, top: 0, left: 0, description: "Card Drawers", link: undefined },
+{ binnum: 387, top: 0, left: 0, description: "Card Drawers", link: undefined },
+{ binnum: 388, top: 0, left: 0, description: "Card Drawers", link: undefined },
+{ binnum: 389, top: 0, left: 0, description: "Card Drawers", link: undefined },
 { binnum: 390, top: 0, left: 0, description: "Card Drawers", link: undefined },
-
 { binnum: 391, top: 0, left: 0, description: "Side Stack", link: undefined },
-// ...
+{ binnum: 392, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 393, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 394, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 395, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 396, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 397, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 398, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 399, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 400, top: 0, left: 0, description: "Side Stack", link: undefined },
+{ binnum: 401, top: 0, left: 0, description: "Side Stack", link: undefined },
 { binnum: 402, top: 0, left: 0, description: "Side Stack", link: undefined },
-
 { binnum: 403, top: 0, left: 0, description: "Stationary Overhead", link: undefined },
 { binnum: 404, top: 0, left: 0, description: "Party Overhead", link: undefined },
 { binnum: 405, top: 0, left: 0, description: "Confectionary Overhead", link: undefined },
@@ -509,12 +403,10 @@ var obj = [
 { binnum: 415, top: 0, left: 0, description: "Home Organisation Overhead", link: undefined },
 { binnum: 416, top: 0, left: 0, description: "Home Deco Overhead", link: undefined },
 { binnum: 417, top: 0, left: 0, description: "Toys Overhead", link: undefined },
-
 { binnum: 418, top: 0, left: 0, description: "Clip Strip", link: undefined },
 { binnum: 419, top: 0, left: 0, description: "Misc", link: undefined },
 { binnum: 420, top: 0, left: 0, description: "Back of House / Markdown", link: undefined },
 { binnum: 421, top: 0, left: 0, description: "Back of House / Markdown (OFFICED)", link: undefined },
-
 { binnum: 422, top: 0, left: 0, description: "Cage", link: undefined },
 { binnum: 423, top: 0, left: 0, description: "Cage", link: undefined },
 { binnum: 424, top: 0, left: 0, description: "Cage", link: undefined },
@@ -537,15 +429,63 @@ var obj = [
 { binnum: 441, top: 0, left: 0, description: "Cage", link: undefined },
 { binnum: 442, top: 0, left: 0, description: "Cage", link: undefined },
 { binnum: 443, top: 0, left: 0, description: "Cage", link: undefined },
-
 { binnum: 444, top: 0, left: 0, description: "Cards and party, Side Stack", link: undefined },
 { binnum: 445, top: 0, left: 0, description: "Registers, Side Stack", link: undefined },
 { binnum: 446, top: 0, left: 0, description: "Pallet", link: undefined },
 { binnum: 447, top: 0, left: 0, description: "Pallet", link: undefined },
 { binnum: 448, top: 0, left: 0, description: "Pallet", link: undefined },
 { binnum: 449, top: 0, left: 0, description: "Pallet", link: undefined },
-
-
+{ binnum: 450, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 451, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 452, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 453, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 454, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 455, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 456, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 457, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 458, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 459, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 460, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 461, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 462, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 463, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 464, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 465, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 466, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 467, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 468, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 469, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 470, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 471, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 472, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 473, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 474, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 475, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 476, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 477, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 478, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 479, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 480, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 481, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 482, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 483, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 484, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 485, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 486, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 487, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 488, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 489, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 490, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 491, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 492, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 493, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 494, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 495, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 496, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 497, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 498, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 499, top: 0, left: 0, description: "Pallet", link: undefined },
+{ binnum: 500, top: 0, left: 0, description: "Pallet", link: undefined },
 ];
 binbox.addEventListener('input', function (e) {
     var num = Number(binbox.value)
