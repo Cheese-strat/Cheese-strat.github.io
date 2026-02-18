@@ -3,23 +3,34 @@
     <span class="button"><input id="binbox" placeholder="bin"></input></span>
     <span class="housenum"><input maxlength="4" value=""></input></span>
 </Div>
-<Div name="text" style="width: 100% 10%;display: flex;justify-content: space-between;">
-    <textarea name="location" id="locationtext" readonly></textarea>
-</Div>
+
+<textarea name="location" id="locationtext" readonly></textarea>
+
 
 <div class="image-container">
-    <img src="./SOUTH FREMANTLE_WA_2025-C02 DEPARTMENT MERCH PLAN (9)_page-0001.jpg" alt="Sample PNG" class="base-image">
+    <img src="./SOUTH FREMANTLE_WA_2025-C02 DEPARTMENT MERCH PLAN (9)_page-0001.jpg" alt="Sample PNG"class="base-image">
     <span id="1" class="dot" style="top: 20px; left: 30px;">&#8226;</span>
     <span class="dot" style="top: 50px; left: 80px;">&#8226;</span>
 </div>
 
 <style>
     .Header {
-        top: auto;
-        width: 100%;
+        width: 100vw;
         background-color: rgb(46, 153, 196);
         display: flex;
         justify-content: space-evenly;
+        position: fixed;
+        z-index: 2;
+    }
+
+    #locationtext {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 2rem;
+        position: fixed;
+        top: 30px;
+        z-index: 2;
     }
 
     .code .button .housenum {
@@ -30,14 +41,15 @@
         position: relative;
         display: inline-block;
         /* Container fits image size */
+        width: 100%;
+        height: 100%;
     }
 
     .base-image {
-        display: block;
-        width: 100%;
+        display: block;        
         visibility: hidden;
         /* Responsive */
-        height: auto;
+        z-index: 0;
     }
 
     .code .button .housenum {
@@ -47,13 +59,13 @@
     ;
 
     .dot {
+        display: block;    
+        z-index: 1;
         position: absolute;
         color: rgb(255, 0, 0);
         /* Color of the dot */
         font-size: 20px;
         /* Size of the dot */
-        cursor: pointer;
-        /* Adjust top/left inline or here */
     }
 </style>
 <script src="index.js"></script>
