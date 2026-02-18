@@ -51,16 +51,16 @@ var obj = [
 
     //container bulk wall
     { binnum: 32, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 33, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 34, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 35, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 36, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 37, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 38, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 39, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 40, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 41, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
-    { binnum: 42, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay", link: undefined },
+    { binnum: 33, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 34, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 35, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 36, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 37, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 38, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 39, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 40, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 41, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
+    { binnum: 42, top: 0, left: 0, description: "Bulk containers, Outer Shelf Bay (Officed)", link: undefined },
 
     //HBA perimeter / west wall
     { binnum: 43, top: 0, left: 0, description: "Tissues, Outer Shelf Bay", link: undefined },
